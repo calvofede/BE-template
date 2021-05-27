@@ -6,10 +6,11 @@
     "body-parser": "^1.19.0",
     "express": "4.17.1",
     "sequelize": "^6.3.4",
-    "sqlite3": "^4.0.1"
+    "sqlite3": "^4.0.1",
+    "lodash": "4.17.21"
   },
   "scripts": {
-    "start": "nodemon ./src/server.js",
+    "start": "nodemon ./src/index.js",
     "seed": "node ./scripts/seedDb.js"
   },
   "devDependencies": {
